@@ -1,0 +1,27 @@
+/* small - mobile/tablet */
+.hp-tips {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+}
+
+.hp-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5em;
+}
+
+.hp-links > * {
+  flex-basis: 40%;
+  flex-grow: 1;
+}
+
+.link__label {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.button--block {
+  margin: 1em;
+}

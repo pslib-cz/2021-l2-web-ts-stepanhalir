@@ -1,0 +1,22 @@
+/* large - tablet landscape */
+
+.slider {
+  position: relative;
+}
+.slider__textbox {
+  margin-left: 2em;
+  margin-bottom: 4em;
+  padding: 1em;
+  width: 50%;
+  max-width: 25em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.hp-links {
+  gap: 1em;
+  margin-top: 1em;
+}
+.hp-links > * {
+  flex-basis: 22%;
+}

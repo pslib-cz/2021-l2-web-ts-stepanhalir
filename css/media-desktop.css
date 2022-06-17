@@ -1,0 +1,17 @@
+/* extra large - desktop */
+
+.hp-tips {
+  display: flex;
+  gap: 2em;
+}
+.hp-tips > .slider {
+  flex-basis: 60%;
+  flex-shrink: 0;
+}
+.hp-links {
+  margin-top: 0em;
+  gap: 2em;
+}
+.hp-links > * {
+  flex-basis: 40%;
+}
